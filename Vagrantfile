@@ -9,6 +9,6 @@ Vagrant.configure("2") do |config|
     sudo apt-get update
     sudo apt-get install -y apache2 git
     sudo systemctl enable --now apache2
-    echo "Hello from the updated Vagrant setup" | sudo tee /var/www/html/index.html
+    echo "Hello from the updated Vagrant setup at 5PM" | sudo tee /var/www/html/index.html
   SHELL
 end
